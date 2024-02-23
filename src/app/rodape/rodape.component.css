@@ -1,7 +1,16 @@
 footer{
     background: black;
     color: white;
-    text-align: center;
-    height: 100px;
-    padding-top: 30px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+p{
+    font-size: 1rem;
+}
+
+h3{
+    font-size: 1.3rem;
 }

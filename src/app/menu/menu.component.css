@@ -2,8 +2,8 @@
     flex: 1 1 auto;
   }
 img{
-    height: 50px;
-    width: 50px;
+    height: 65px;
+    width: 65px;
 }
 
 span{
@@ -13,4 +13,18 @@ span{
 a{
     text-decoration: none;
     color: white;
+}
+
+.mat-toolbar.mat-primary{
+    background-color: black;
+    
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.mat-toolbar-row, .mat-toolbar-single-row{
+    padding: 0 50px;
 }
