@@ -29,11 +29,18 @@
       "preco": "R$ 570,00"
     },
     {
-      "id": 0,
+      "id": "0",
       "produto": "ssss",
       "descricao": "ssss",
       "foto": "ssss",
       "preco": 1110
+    },
+    {
+      "id": 0,
+      "produto": "novo jogo",
+      "descricao": "jogo novo",
+      "foto": "foto.jpg",
+      "preco": 300.5
     }
   ]
 }
