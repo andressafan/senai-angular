@@ -41,6 +41,13 @@
       "descricao": "jogo novo",
       "foto": "foto.jpg",
       "preco": 300.5
+    },
+    {
+      "id": 0,
+      "produto": "sssss",
+      "descricao": "3333dddd",
+      "foto": "",
+      "preco": 333333
     }
   ]
 }
