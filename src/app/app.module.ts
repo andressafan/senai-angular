@@ -28,6 +28,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
 import { FormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -59,7 +60,8 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule, 
-    RestritoRoutindModule
+    RestritoRoutindModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

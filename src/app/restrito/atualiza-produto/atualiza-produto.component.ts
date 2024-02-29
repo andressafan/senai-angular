@@ -9,8 +9,8 @@ import { ProdutoService } from 'src/app/produto.service';
   styleUrls: ['./atualiza-produto.component.css'],
 })
 export class AtualizaProdutoComponent implements OnInit {
-  public produtoId: number = 0;
-  public produto: Produto = new Produto(0, '', '', '', 0);
+  public produtoId: string = "";
+  public produto: Produto = new Produto('', '', '', '', 0);
 
   constructor(
     private _produtoService: ProdutoService,
@@ -38,12 +38,12 @@ export class AtualizaProdutoComponent implements OnInit {
     });
   }
 
-  atualizar(id: number) {
+  atualizar(id: string) {
     this._produtoService.atualizaProduto(id, this.produto).subscribe(
-      (produto) => {
-        this.produto = new Produto(0, '', '', '', 0);
+      produto => {
+        this.produto = new Produto('', '', '', '', 0);
       },
-      (err) => {
+      err => {
         alert('Erro ao atualizar');
       }
     );

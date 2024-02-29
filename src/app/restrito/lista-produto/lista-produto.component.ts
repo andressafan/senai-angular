@@ -36,7 +36,7 @@ export class ListaProdutoComponent implements OnInit {
     });
   }
 
-  excluir(id: number) {
+  excluir(id: string) {
     this._produtoService.removerProduto(id).subscribe(
       (produto) => {
         this.listarProdutos();

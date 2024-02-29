@@ -5,49 +5,21 @@
       "produto": "jogo 1",
       "descricao": "descrição jogo 1",
       "foto": "poster-1.jpg",
-      "preco": "R$ 300,00"
+      "preco": 300
     },
     {
       "id": "2",
       "produto": "jogo 2",
       "descricao": "descrição jogo 2",
       "foto": "poster-2.jpg",
-      "preco": "R$ 350,00"
+      "preco": 350
     },
     {
       "id": "3",
       "produto": "jogo 3",
       "descricao": "descrição jogo 3",
       "foto": "poster-3.jpg",
-      "preco": "R$ 400,00"
-    },
-    {
-      "id": "4",
-      "produto": "jogo 4",
-      "descricao": "descrição jogo 4",
-      "foto": "poster-4.jpg",
-      "preco": "R$ 570,00"
-    },
-    {
-      "id": "0",
-      "produto": "ssss",
-      "descricao": "ssss",
-      "foto": "ssss",
-      "preco": 1110
-    },
-    {
-      "id": 0,
-      "produto": "novo jogo",
-      "descricao": "jogo novo",
-      "foto": "foto.jpg",
-      "preco": 300.5
-    },
-    {
-      "id": 0,
-      "produto": "sssss",
-      "descricao": "3333dddd",
-      "foto": "",
-      "preco": 333333
+      "preco": 400
     }
   ]
 }

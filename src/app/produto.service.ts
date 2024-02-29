@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { Produto } from './models/Produto.model';
+import { Produto, ProdutoCadastro } from './models/Produto.model';
 import { HttpClient } from '@angular/common/http';
 
 
@@ -21,18 +21,18 @@ export class ProdutoService {
   return this._httpClient.get<Produto[]>(this.url);
   }
 
-  cadastrarProduto(produto:Produto):Observable<Produto[]>{
-    return this._httpClient.post<Produto[]>(this.url, produto);
+  cadastrarProduto(produto:ProdutoCadastro):Observable<ProdutoCadastro[]>{
+    return this._httpClient.post<ProdutoCadastro[]>(this.url, produto);
   }
 
-  atualizaProduto(id:any, produto: Produto):Observable<Produto[]>{
-    const urlAtualizar = `${this.url}/?${id}`;
+  atualizaProduto(id:string, produto: Produto):Observable<Produto[]>{
+    const urlAtualizar = `${this.url}/${id}`;
     return this._httpClient.put<Produto[]>(urlAtualizar, produto);
   }
 
   removerProduto(id: any):Observable<Produto[]>{
-    const urlDeletar = `${this.url}/?${id}`;
+    const urlDeletar = `${this.url}/${id}`;
     return this._httpClient.delete<Produto[]>(urlDeletar);
   }
-  
+  /*http://localhost:3000/produtos/?idade=12&nome=jose*/
 }
