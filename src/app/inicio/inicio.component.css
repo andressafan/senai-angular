@@ -32,7 +32,7 @@ h2{
   }
   
   mat-grid-tile{
-    padding: 100px ;
+    padding: 0 ;
     border-radius: 60px;
   }
 
@@ -49,14 +49,11 @@ h2{
 
   mat-card img{
     
-    height: 25rem;
+    height: 20rem;
     width: 18.75rem;
-    
-  
   }
 
   mat-card {
-
     border-radius: .5rem;
   }
 
@@ -65,3 +62,6 @@ h2{
     justify-content: space-between;
   }
 
+  mat-grid-list{
+    margin: 5rem 1rem;
+  }
